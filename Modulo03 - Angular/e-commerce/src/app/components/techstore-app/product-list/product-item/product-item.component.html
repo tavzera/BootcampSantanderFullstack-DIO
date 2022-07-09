@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+  <img src='{{tech.imagem}}' class="card-img-top" alt='{{tech.item}}'>
+  <div class="card-body">
+    <h5 class="card-title">{{ tech.item | slice:0:30 }} ...</h5>
+    <p class="card-text">{{ tech.valor | currency: 'BRL'}}</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+</div>
